@@ -1,7 +1,9 @@
 SpringBootGradleJPA
 ===================
 Simple Spring Boot project, built using Gradle, using JPA for persistence.
-JPA still in progress!
+
+JPA part still in progress!
+
 Based on initial SpringBootGradle template at https://github.com/sabram/SpringBootGradle
 
 To run, use one of the following options:
