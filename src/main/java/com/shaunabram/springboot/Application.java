@@ -11,6 +11,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
+//By default runs against an in memory database.
+//Otherwise, see the application-{profile}.properties files, and specify the profile from the command line arg
+//For example: -Dspring.profiles.active=dev
 public class Application {
 
 	public static void main(String[] args) {
